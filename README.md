@@ -1,7 +1,7 @@
-# sumhmac
+# hashsum
 Hash-based Message Authentication Code Generator
 
-## Getting Started with sumhmac
+## Getting Started with hashsum
 
 This script was created in python
 
@@ -10,7 +10,7 @@ This script calculates HMAC (Hash-based Message Authentication Code) for a given
 
 Functions: Calculates and prints the HMAC for the given data and key using the specified hash type.
 
-    sumhmac(data, key, hashtype, debug=False):
+    hashsum(data, key, hashtype, debug=False):
 
 Parameters:
 
@@ -28,4 +28,4 @@ Usage: Run the script from the command line with the following arguments:
 
 Example:
 
-    python sumhmac.py "Hello, World!" "secret_key" "SHA256"
+    python hashsum.py "Hello, World!" "secret_key" "SHA256"
